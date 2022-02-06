@@ -1,0 +1,10 @@
+version: "3.5"
+services:
+  face:
+    build: ./src
+    container_name: face
+    restart: always
+    environment:
+      APP_NAME: FaceSwap
+    volumes:
+      - ./src:/app

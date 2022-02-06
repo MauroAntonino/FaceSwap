@@ -1,0 +1,5 @@
+Flask==1.1.2
+# cmake==3.22.2
+dlib==19.23.0
+opencv-contrib-python==4.5.5.62
+matplotlib==3.5.1
